@@ -71,7 +71,7 @@ We follow the visual encoder architecture of [LLaVA-HR](https://github.com/luoge
 
 ### Data selection methods for LLaVAR-2
 
-We propose Muti-modal Instruction-following Difficulty (mIFD) for multi-modal instructional data filtering and Fact-following Difficulty (FFD) for the duo-conversation data selection. Their implementations are based on [IFD](https://github.com/tianyi-lab/Cherry_LLM) and can be found here: [mIFD]() (VFD*IFD), [FFD]().
+We propose Muti-modal Instruction-following Difficulty (mIFD) for multi-modal instructional data filtering and Fact-following Difficulty (FFD) for the duo-conversation data selection. Their implementations are based on [IFD](https://github.com/tianyi-lab/Cherry_LLM) and can be found here: [mIFD](https://github.com/llavar/LLaVAR-2/tree/main/Hybrid-Instruct_data_selection/mIFD) (VFD*IFD), [FFD](https://github.com/llavar/LLaVAR-2/blob/main/Hybrid-Instruct_data_selection/FFD.py).
 
 ## Models & Performance
 
@@ -182,7 +182,7 @@ deepspeed LLaVAR-2/llava/train/train_mem.py \
   --input_image_size 768
 ```
 
-Scripts for LLaVAR-2 with Llama and Vicuna backbones are also available: [pretraining](), [SFT]().
+Scripts for LLaVAR-2 with Llama and Vicuna backbones are also available: [pretraining](https://github.com/llavar/LLaVAR-2/blob/main/LLaVAR-2/llama3-V_stage1.sh), [SFT](https://github.com/llavar/LLaVAR-2/blob/main/LLaVAR-2/llama3-V_stage2.sh).
 
 ## Evaluation Scripts
 
